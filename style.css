@@ -1,0 +1,211 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 13, 13);
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.logo
+{
+    position: relative;  
+    left: 100px; 
+}
+.navitem
+{
+    display: flex;
+    margin: auto;
+    
+}
+.navitem a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.book .btn
+{
+    border-radius: 20px;
+    background-color: rgb(36,13,13);
+    border: 1px solid  #29d9d5;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 110px;
+
+    color: #29d9d5;
+}
+
+.photographer
+{
+    background-color: rgb(244, 211, 217);
+    margin:auto;
+    display: block;
+    border-radius: 10px;
+    padding: 2px;
+    width: 1245px;
+}
+.photographer h3
+{
+    color: blue;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.photographer p
+{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.photo
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+.photo .l
+{
+    width: 400px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border:1px solid red ; */
+}
+.one
+{
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.two
+{
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+.three
+{
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+.four
+{
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+.five
+{
+    background-image: url("5.jpg");
+    background-size: cover;
+}
+.six
+{
+    background-image: url("6.jpg");
+    background-size: cover;
+}
+.bottom
+{
+    background-image: url("kal-visuals-vbJUU9bViD8-unsplash.jpg");
+    background-size: cover;
+    width: 1458px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+}
+.bottom h2
+{
+    font-size: 30px;
+   color: #7cd6d4;   
+}
+.bottom h1
+{
+    font-size: 40px;
+    color: white;
+}
+.bottom p
+{
+    margin:0 350px;
+    color: gray;
+}
+.bottom .book
+{
+    border-radius: 20px;
+    border: 2px solid #29d9d5;
+    width: 137px;
+    height: 51px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #29d9d5;
+}
+[15:47, 06/10/2022] +91 93695 99622: .footer {
+    padding: 40px;
+    height: 300px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px
+}
+
+.links li {
+    font-size: 1.5rem;
+    margin-bottom: 10px
+}
+
+.links li a {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 30%;
+}
+[15:47, 06/10/2022] +91 93695 99622: .quickLinks {
+    width: 30%;
+}
+
+.quickContacts {
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+        padding: 0px 20px;
+    }
+    .logo,
+    .quickLinks,
+    .quickContacts {
+        width: 100%;
+    }
+}
+
+#hvr:hover {
+    color: aqua;
+}
+
+.footer .logo h1 {
+    margin-bottom: 20px;
+}
+
+#hvr {
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+#p2 {
+    margin-bottom: 20px;
+}
