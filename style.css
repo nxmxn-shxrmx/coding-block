@@ -29,18 +29,34 @@ body
     text-decoration: none;
     color: white;
     padding: 10px;
+    transition: 1s;
+    transform:easy-in;
+}
+.ca:hover
+{
+    color: #29d9d5;
+}
+.navitem a:hover
+{
+    color: #29d9d5;
 }
 .book .btn
 {
     border-radius: 20px;
     background-color: rgb(36,13,13);
-    border: 1px solid  #29d9d5;
+    border: 2px solid  #29d9d5;
     width: 100px;
     height: 40px;
     position: relative;
     right: 110px;
+    transform: easy-out;
 
     color: #29d9d5;
+}
+.book .btn:hover
+{
+    color: white;
+    background-color: #29d9d5;
 }
 
 .photographer
@@ -78,10 +94,24 @@ body
     border-radius: 10px;
     /* border:1px solid red ; */
 }
-.one
+.photo .l:hover
 {
-    background-image: url("1.jpg");
+    filter: grayscale(100);
+    /* border:1px solid red ; */
+}
+.i .cam
+{
+    position: relative;
+    z-index: 100;
+}
+
+
+.one
+{position: relative;
+     background-image: url("1.jpg");
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 .two
 {
@@ -141,8 +171,15 @@ body
     margin-top: 30px;
     background-color: transparent;
     color: #29d9d5;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
 }
-[15:47, 06/10/2022] +91 93695 99622: .footer {
+.bottom .book:hover
+{
+    color: white;
+    background-color: #29d9d5;
+}
+ .footer {
     padding: 40px;
     height: 300px;
     display: flex;
@@ -156,11 +193,15 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 20px
+    position: relative;
+    right: 30px;
+   
 }
 
 .links li {
     font-size: 1.5rem;
+    text-align: left;
+    list-style-type: none;
     margin-bottom: 10px
 }
 
@@ -171,7 +212,8 @@ body
 .logo {
     width: 30%;
 }
-[15:47, 06/10/2022] +91 93695 99622: .quickLinks {
+ .quickLinks {
+text-align: left;
     width: 30%;
 }
 
@@ -208,4 +250,36 @@ body
 
 #p2 {
     margin-bottom: 20px;
+}
+.quickContacts
+{
+    text-align: left;
+}
+.quickContacts input
+{
+    border-radius: 20px;
+    border: 2px solid #29d9d5;
+    width: 350px;
+    height: 51px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #29d9d5;
+}
+.quickContacts .book
+{
+    border-radius: 20px;
+    border: 2px solid #29d9d5;
+    font-weight: bold;
+    width: 180px;
+    height: 51px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #29d9d5;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.quickContacts .book:hover
+{
+ background-color: #29d9d5;
+ color: white;
 }
